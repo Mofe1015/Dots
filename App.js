@@ -5,7 +5,7 @@ import Dots from './src/component/Dot';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Dots />
+      <Dots currentPage={3} pageQuantity={4} />
     </View>
   );
 }
