@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native';
+import {View } from 'react-native';
 
 import styles from "./Styles"
 
@@ -10,7 +10,7 @@ const Dots = ({currentPage, pageQuantity}) => {
         dots.push(
         <View
             key={i}
-            style={styles.current}
+            style={ i < currentPage ? styles.before : i === currentPage ? styles.current  : styles.after }
         />)
     }
     return(
