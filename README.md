@@ -1,2 +1,2 @@
 # Dots
-A Progress dots for React 
+Page Progress Dots for React Native
