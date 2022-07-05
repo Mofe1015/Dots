@@ -1,3 +1,4 @@
 # Dots
 Page Progress Dots for React Native
-Fully customizable
+
+###Fully customizable
